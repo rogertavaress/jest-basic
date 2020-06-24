@@ -6,13 +6,29 @@ function soma(a,b) {
   return a+b;
 }
 function subtracao(a,b) {
- return 1;
+  if(typeof a !== 'number' || typeof b !== 'number') {
+    return null;
+  }
+
+  return a-b;
 }
 function multiplicacao(a,b) {
- return 1;
+  if(typeof a !== 'number' || typeof b !== 'number') {
+    return null;
+  }
+
+  return a*b;
 }
 function divisao(a,b) {
- return 1;
+  if(typeof a !== 'number' || typeof b !== 'number') {
+    return null;
+  }
+
+  if(b === 0) {
+    return null;
+  }
+  
+  return a/b;
 }
 
 module.exports = {soma, subtracao, multiplicacao, divisao}
