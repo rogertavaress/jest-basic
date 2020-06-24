@@ -1,4 +1,4 @@
-const { soma,subtracao,divisao,multiplicacao } = require('./functions');
+const { soma } = require('./functions');
 
 describe('Soma', () => {
   it('Deve somar inteiros', () => {
