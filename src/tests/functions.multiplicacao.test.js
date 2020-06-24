@@ -1,12 +1,11 @@
-const { multiplicacao } = require('./functions');
-
+const { multiplicacao } = require('../functions');
 
 describe('Multiplicação', () => {
   it('Deve multiplicar inteiros', () => {
-    expect(multiplicacao(3,2)).toBe(6);
-    expect(multiplicacao(5,4)).toBe(20);
-    expect(multiplicacao(-1,5)).toBe(-5);
-    expect(multiplicacao(1,-5)).toBe(-5);
+    expect(multiplicacao(3,2)).toEqual(6);
+    expect(multiplicacao(5,4)).toEqual(20);
+    expect(multiplicacao(-1,5)).toEqual(-5);
+    expect(multiplicacao(1,-5)).toEqual(-5);
   });
 
   it('Deve retornar null se algum parâmetro não for definido/null', () => {

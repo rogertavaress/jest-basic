@@ -1,5 +1,4 @@
-const { subtracao } = require('./functions');
-
+const { subtracao } = require('../functions');
 
 describe('Subtração', () => {
   it('Deve subtrair inteiros', () => {
