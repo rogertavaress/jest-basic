@@ -1,0 +1,1 @@
+console.log('Trabalho para a disciplina de Qualidade de Software!');
