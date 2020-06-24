@@ -25,7 +25,11 @@ function divisao(a,b) {
   }
 
   if(b === 0) {
-    return null;
+    if(a === 0) {
+      return 'Indefinido';
+    } else {
+      return 'Indeterminação Matemática'
+    }
   }
   
   return a/b;

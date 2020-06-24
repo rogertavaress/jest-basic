@@ -15,7 +15,11 @@ describe('Divisão', () => {
     expect(divisao(1,null)).toBeNull();
   });
 
-  it('Deve retornar null se o parametro "b" for zero', () => {
-    expect(divisao(1,0)).toBeNull();
+  it('Deve retornar "Indeterminação Matemática" se o parametro "b" for zero', () => {
+    expect(divisao(1,0)).toEqual('Indeterminação Matemática');
+  });
+
+  it('Deve retornar "Indefinido" se o parametro "a" for zero e o parametro "b" for zero', () => {
+    expect(divisao(0,0)).toEqual('Indefinido');
   });
 });
