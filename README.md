@@ -10,7 +10,7 @@ Feito para a disciplina de qualidade de software - Professor Hemir.
 
 ### 3) Faça o download do projeto.
 #### 3.1) Pelo git clone
-1) Baixe e instale o [Git](https://nodejs.org/pt-br/download/)
+1) Baixe e instale o [Git](https://git-scm.com/downloads)
 2) Execute no terminal o seguinte comando: `git clone https://github.com/rogertavaress/jest-basic.git`
 #### 3.2) Por Download
 1) Baixe e descompacte o seguinte arquivo: [Baixar](https://github.com/rogertavaress/jest-basic/archive/master.zip)
